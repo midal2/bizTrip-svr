@@ -4,8 +4,7 @@
 <mapper namespace="dz.biztrip.batch.sample.SchduleTestDao">
 
     <select id="getStockList" resultType="hashMap">
-        SELECT `TBL_StockInfo`.`idx`,
-            `TBL_StockInfo`.`StockCd`,
+        SELECT `TBL_StockInfo`.`StockCd`,
             `TBL_StockInfo`.`JongName`,
             `TBL_StockInfo`.`CurJuka`,
             `TBL_StockInfo`.`Debi`,

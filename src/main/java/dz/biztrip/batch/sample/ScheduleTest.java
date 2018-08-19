@@ -17,7 +17,7 @@ public class ScheduleTest {
     @Autowired
     private SchduleTestDao schduleTestDao;
 
-    @Scheduled(fixedDelay=1000)
+//    @Scheduled(fixedDelay=1000)
     public void testSchedule(){
         logger.debug("testSchedule : " + schduleTestDao.getStockList());
     }
